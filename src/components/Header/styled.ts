@@ -3,6 +3,7 @@ import image from "next/image"
 import link from "next/link"
 export const HeaderContainer=styled.div`
     width:100%;
+    height: auto;
     margin-top:0px;
     display: flex;
     justify-content: space-between;
@@ -40,7 +41,6 @@ grid-column-gap: 24px;
 @media(max-width:768px){
     padding-top:24px;
     padding-right: 10px;
-   
     grid-template-columns: 10px 10px 10px 10px;
     grid-column-gap: 10px;
 }
