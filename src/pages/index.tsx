@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { BodyContainer } from "../components/Body";
 import { Header } from "../components/Header";
-import {BsCaretRight}from"react-icons/bs"
 
 const Home: NextPage = () => {
   return (
@@ -13,10 +12,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>
-        <Header/>
-        <BodyContainer/>
+        <Header />
+        <BodyContainer />
       </body>
-      </div>
+    </div>
   );
 };
 
