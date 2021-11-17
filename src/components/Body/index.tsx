@@ -1,12 +1,15 @@
 import { BsCaretRight } from "react-icons/bs";
+
 import {
   BodyBox,
   BoxButton,
+  BoxIcon,
   BoxImg,
   BoxInfos,
   ButtonNow,
   ButtonTrailer,
   Description,
+  DivButton,
   MyImage,
   SubTitle,
   Title,
@@ -27,9 +30,13 @@ export function BodyContainer() {
           transformados em animais.
         </Description>
         <BoxButton>
+          <DivButton>
+            <BoxIcon><BsCaretRight /></BoxIcon>
           <ButtonNow>
-            <BsCaretRight /> ASSISTIR AGORA
+          
+             ASSISTIR AGORA
           </ButtonNow>
+          </DivButton>
           <ButtonTrailer>ASSISTA O TRAILER</ButtonTrailer>
         </BoxButton>
       </BoxInfos>
