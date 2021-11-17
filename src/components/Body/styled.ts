@@ -59,6 +59,10 @@ export const ButtonNow = styled.button`
   font-size: 1rem;
   line-height: 1.75rem;
   margin-right: 25px;
+  cursor: pointer;
+  :hover {
+    border: 2px solid #3cb7de;
+  }
   @media (max-width: 768px) {
     margin-top: 10px;
   }
@@ -77,6 +81,10 @@ export const ButtonTrailer = styled.button`
   font-size: 1rem;
   line-height: 1.75rem;
   border: 2px solid #658e76;
+  cursor: pointer;
+  :hover {
+    border: 2px solid #3cb7de;
+  }
   @media (max-width: 768px) {
     display: none;
   }
@@ -97,4 +105,13 @@ export const BoxImg = styled.div`
 export const MyImage = styled(image)``;
 export const BoxButton = styled.div`
   display: flex;
+  margin-bottom: 150px;
+`;
+export const DivButton = styled.div``;
+export const BoxIcon = styled.div`
+  position: absolute;
+  color: white;
+  z-index: 2;
+  margin-top: 13px;
+  margin-left: 29px;
 `;
