@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { BodyContainer } from "../components/Body";
 import { Header } from "../components/Header";
-
 const Home: NextPage = () => {
   return (
     <div>
