@@ -1,5 +1,4 @@
 import { BoxLogo, BoxMidia, HeaderContainer, MyImage, MyLink } from "./styled";
-
 export function Header() {
   return (
     <HeaderContainer>
@@ -13,7 +12,7 @@ export function Header() {
         />
       </BoxLogo>
       <BoxMidia>
-        <MyLink href="/">
+        <MyLink href="#">
           <MyImage
             className="facebook"
             src="/../public/facebook.svg"

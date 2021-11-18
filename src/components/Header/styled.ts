@@ -26,6 +26,9 @@ export const BoxImg = styled.div`
   @media (max-width: 768px) {
     display: none;
   }
+  :hover {
+    cursor: pointer;
+  }
 `;
 export const BoxMidia = styled.div`
   padding-top: 52px;

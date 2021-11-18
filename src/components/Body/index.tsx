@@ -1,5 +1,4 @@
 import { BsCaretRight } from "react-icons/bs";
-
 import {
   BodyBox,
   BoxButton,
@@ -31,11 +30,10 @@ export function BodyContainer() {
         </Description>
         <BoxButton>
           <DivButton>
-            <BoxIcon><BsCaretRight /></BoxIcon>
-          <ButtonNow>
-          
-             ASSISTIR AGORA
-          </ButtonNow>
+            <BoxIcon>
+              <BsCaretRight />
+            </BoxIcon>
+            <ButtonNow>ASSISTIR AGORA</ButtonNow>
           </DivButton>
           <ButtonTrailer>ASSISTA O TRAILER</ButtonTrailer>
         </BoxButton>
